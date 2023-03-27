@@ -1,0 +1,24 @@
+.SocialmediaContainer{
+    left: 19px;
+    position: fixed;
+    display: flex;
+    top: 65%;
+    flex-direction: column;
+    font-size: 21px;
+}
+.vl {
+    border-left: 2px solid #726f6a;
+    height: 457px;
+    position: absolute;
+    left: 56%;
+    margin-left: -3px;
+    top: 146px;
+  }
+  .smallvl{
+    align-items: center;
+    display: inline-flex;
+    /* align-content: stretch; */
+    justify-content: space-around;
+    font-size: 14px;
+    color: black;
+  }
