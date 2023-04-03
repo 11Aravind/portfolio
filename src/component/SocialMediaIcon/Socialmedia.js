@@ -6,13 +6,16 @@ export const Socialmedia = () => {
                 <div className="github">
                     <i class="fa fa-github" aria-hidden="true"></i>
                 </div>
-                <div class="smallvl">|</div>
+                {/* <div class="smallvl">|</div> */}
                 <div className="linkedin">
                     <i class="fa fa-linkedin-square" aria-hidden="true"></i>
                     </div>
-                    <div class="smallvl">|</div>
+                    {/* <div class="smallvl">|</div> */}
                 <div className="insta"> 
                 <i class="fa fa-instagram" aria-hidden="true"></i>
+                </div>
+                <div className="gmail">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
                 </div>
                 <div class="vl"></div>
 

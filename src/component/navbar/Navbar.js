@@ -14,7 +14,7 @@ export  const Navbar=()=> {
             <ul className='menuCOntainer'>
               {
                 menuDetails.map((menu,key)=>{
-                 return   <li><a href={menu.url}>{menu.menuItem}</a></li> 
+                 return   <li><div><i class="fa fa-home" aria-hidden="true"></i></div> <a href={menu.url}>{menu.menuItem}</a></li> 
 
 
 })

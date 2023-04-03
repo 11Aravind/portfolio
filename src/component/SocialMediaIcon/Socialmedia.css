@@ -5,6 +5,7 @@
     top: 65%;
     flex-direction: column;
     font-size: 21px;
+    justify-content: space-evenly;
 }
 .vl {
     border-left: 2px solid #726f6a;
