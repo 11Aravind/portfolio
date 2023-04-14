@@ -4,17 +4,22 @@ import {Banner} from './component/slider/Banner'
 import {About} from './About/About';
 import {Socialmedia} from './component/SocialMediaIcon/Socialmedia'
 import Work from './component/Work/Work';
+import Skils from './component/card/skils/Skils';
+// import Card from './component/card/Card';
 function App() {
   return (
   <>
 <Navbar />
 <Banner />
 <Socialmedia />
-{/* <div className="content"> */}
+<div className="container">
 
 <About />
-<Work />
-{/* </div> */}
+<Skils />
+{/* <Work /> */}
+
+
+</div>
 
 
   </>

@@ -1,0 +1,19 @@
+.skils {
+    width: 11%;
+}
+.cardContainer {
+    display: flex;
+    flex: 1 1;
+    justify-content: space-around;
+    align-items: center;
+}
+.skils>img{
+    width: 100%;
+}
+.skilsContainer{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    /* background-color: red; */
+}

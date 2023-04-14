@@ -1,5 +1,6 @@
 import './About.css';
 import Headding from '../component/Headding';
+
 export const About = () => {
   return (
     <>
@@ -8,35 +9,32 @@ export const About = () => {
         <div className="aboutContent">
           <div className="mySelf">
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
-            </p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta debitis alias expedita amet corrupti beatae quasi ullam sunt officia culpa, velit, omnis in? Mollitia natus accusamus amet, eos corporis deleniti.
+        
+    </p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta debitis alias expedita amet corrupti beatae quasi ullam sunt officia culpa, velit, omnis in? Mollitia natus accusamus amet, eos corporis deleniti.
             </p>
             <br />
             <p>
             Here are a few technologies I’ve been working with recently:
-            <ul>
-            <li>HTML</li>
-              <li>CSS</li>
-              <li>Javascript</li>
-              <li>Jquery</li>
-              <li>React JS</li>
-              <li>PHP</li>
-            </ul>
+            
             </p>
           </div>
+
           <div className="personImage">
             {/* <div> */}
-            <div className="borderImg"></div>
+            
               <div className="img">
-               
+              
                 <img src="https://brittanychiang.com/static/30a645f7db6038f83287d0c6042d3b2b/f9526/me.avif" alt="pic" />
-              {/* </div> */}
-            </div>
+                <div className="borderImg"></div>
+                        </div>
+                        
           </div>
         </div>
       </div>
+   
     </>
   )
 }

@@ -8,7 +8,7 @@
 .headingContainer{
     display: flex;
     height: 66px;
-    margin: 0px 210px;
+    /* margin: 0px 210px; */
     align-items: center;
 }
 .hr{
@@ -20,14 +20,14 @@
   justify-content: center;
   /* width: 90%; */
   align-items: center;
-  margin: 0px 210px;
+  /* margin: 0px 210px; */
 
 }
 .img{
   z-index: 3;
   width: 52%;
   background: var(--green);
-  height: 193px;
+  height: 100%;
  
 }
 .img>img
@@ -64,17 +64,26 @@
     border-radius: 3px; */
     border-radius: 3px; 
     left: 110px;
-
         top: 16px;
     width: 52%;
     position: absolute;
     border: 3px solid var(--green);
-    height: 193px;
+    height: 100%;
 }
 @media only screen and (max-width: 768px) {
 /* @media only screen and (max-width: 600px) { */
-.headingContainer{
+  .personImage{
+    width: 100%;
+  }
+.container{
   margin: 0px 34px;
+}
+.headding{
+  font-size: 24px; 
+}
+.mySelf {
+
+  width: 100%;
 }
 .aboutContent{
 flex-direction: column;
