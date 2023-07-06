@@ -12,6 +12,9 @@ width: 40%;
 .rightContent{
 width: 50%;
 }
+.rightContent{
+width: 50%;
+}
 
 #box {
     display: flex;
