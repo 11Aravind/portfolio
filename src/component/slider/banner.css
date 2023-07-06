@@ -1,0 +1,63 @@
+.bannerContainer{
+    width: 100%;
+    /* background-color: aqua; */
+    height: 615px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.leftSection{
+  align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 510px;
+    display: flex;
+    
+}
+
+.rightSection{
+    width: 40%;
+}
+.wrapper {
+    /* height: 100vh; */
+    /*This part is important for centering*/
+    display: grid;
+    /* place-items: center; */
+  }
+  .helo{
+    font-size: 22px;
+    color: var(--green);
+  }
+  .typing-demo {
+    width: 10ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    font-size: 102px;
+  }
+  .smallAbout{
+    color:gray;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .rightSection{
+      display: none;
+    }
+    .typing-demo{
+      font-size: 51px;
+    }
+  }
