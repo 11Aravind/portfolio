@@ -1,7 +1,8 @@
 .bannerContainer{
     width: 100%;
     /* background-color: aqua; */
-    height: 615px;
+/*     height: 615px; */
+    height:837px;
     display: flex;
     justify-content: center;
     /* align-items: center; */
