@@ -28,8 +28,6 @@ export default function Card() {
           <h4>{payload.skill}</h4></div>
       ))
      }
-   
-    
     </div> 
     </>
   )
